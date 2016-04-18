@@ -18,14 +18,14 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://192.168.1.173:5566/" Protocol="http" SourceId="1" />
+    <MetadataSource Address="http://localhost:5566/" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="8fa2f9a0-3ff9-4114-b07a-4e39c7bc3420" SourceId="1" SourceUrl="http://192.168.1.173:5566/?xsd=xsd2" />
-    <MetadataFile FileName="CaseService.wsdl" MetadataType="Wsdl" ID="0098c675-e734-4a63-bacb-882419c78ae4" SourceId="1" SourceUrl="http://192.168.1.173:5566/?wsdl" />
-    <MetadataFile FileName="item11.xsd" MetadataType="Schema" ID="898ccb50-118c-4f02-87d3-099c599f6ddb" SourceId="1" SourceUrl="http://192.168.1.173:5566/?xsd=xsd1" />
-    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="7d494d1a-0991-4dff-a191-aca062a803c6" SourceId="1" SourceUrl="http://192.168.1.173:5566/?xsd=xsd0" />
-    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="05306c47-470c-471d-80d7-261540608743" SourceId="1" SourceUrl="http://192.168.1.173:5566/?disco" />
+    <MetadataFile FileName="CaseService1.wsdl" MetadataType="Wsdl" ID="2279d8ee-e625-4c03-875a-09f52cfeb2bb" SourceId="1" SourceUrl="http://localhost:5566/?wsdl" />
+    <MetadataFile FileName="item1.disco" MetadataType="Disco" ID="942bf6c5-7579-4852-8bd4-1cf974df8df1" SourceId="1" SourceUrl="http://localhost:5566/?disco" />
+    <MetadataFile FileName="item2.xsd" MetadataType="Schema" ID="4459a05a-9bb2-4c51-a520-8fea16021835" SourceId="1" SourceUrl="http://localhost:5566/?xsd=xsd1" />
+    <MetadataFile FileName="item21.xsd" MetadataType="Schema" ID="97af19c8-9ae2-416f-ac05-a651a207acd5" SourceId="1" SourceUrl="http://localhost:5566/?xsd=xsd2" />
+    <MetadataFile FileName="item22.xsd" MetadataType="Schema" ID="3b4ab378-30a2-4447-8711-c39eb682863d" SourceId="1" SourceUrl="http://localhost:5566/?xsd=xsd0" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

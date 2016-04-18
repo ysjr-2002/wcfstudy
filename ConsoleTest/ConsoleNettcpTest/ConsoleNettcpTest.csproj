@@ -68,28 +68,28 @@
     <None Include="app.config">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\ServiceReference1\Arrays.xsd">
+    <None Include="Service References\ServiceReference1\Arrays1.xsd">
       <SubType>Designer</SubType>
     </None>
     <None Include="Service References\ServiceReference1\ConsoleNettcpTest.ServiceReference1.UserInfo.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\ServiceReference1\Model.xsd">
+    <None Include="Service References\ServiceReference1\Model1.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\ServiceReference1\service.wsdl" />
-    <None Include="Service References\ServiceReference1\service.xsd">
+    <None Include="Service References\ServiceReference1\service1.wsdl" />
+    <None Include="Service References\ServiceReference1\service2.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\ServiceReference1\service1.xsd">
+    <None Include="Service References\ServiceReference1\service21.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\ServiceReference2\DeparmentService.wsdl" />
-    <None Include="Service References\ServiceReference2\item.xsd">
+    <None Include="Service References\ServiceReference2\DeparmentService1.wsdl" />
+    <None Include="Service References\ServiceReference2\item1.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\ServiceReference3\service.wsdl" />
-    <None Include="Service References\ServiceReference3\service.xsd">
+    <None Include="Service References\ServiceReference3\service1.wsdl" />
+    <None Include="Service References\ServiceReference3\service1.xsd">
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
@@ -109,9 +109,6 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Service References\ServiceReference2\item.disco" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Service References\ServiceReference2\configuration91.svcinfo" />
@@ -136,6 +133,9 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServiceReference2\item1.disco" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

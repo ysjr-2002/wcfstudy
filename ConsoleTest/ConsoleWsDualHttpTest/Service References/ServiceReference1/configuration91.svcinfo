@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="k8qnN4c+rfEpn0osTWSP0Nu6qcc=">
+<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="yTX2+PhlsEmjK/EU7E6/QJeTkDw=">
   <bindingConfigurations>
     <bindingConfiguration bindingType="wsDualHttpBinding" name="WSDualHttpBinding_IPhone">
       <properties>
@@ -97,10 +97,10 @@
     </bindingConfiguration>
   </bindingConfigurations>
   <endpoints>
-    <endpoint name="WSDualHttpBinding_IPhone" contract="ServiceReference1.IPhone" bindingType="wsDualHttpBinding" address="http://192.168.1.173:8899/phone" bindingConfiguration="WSDualHttpBinding_IPhone">
+    <endpoint name="WSDualHttpBinding_IPhone" contract="ServiceReference1.IPhone" bindingType="wsDualHttpBinding" address="http://localhost:8899/phone" bindingConfiguration="WSDualHttpBinding_IPhone">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>http://192.168.1.173:8899/phone</serializedValue>
+          <serializedValue>http://localhost:8899/phone</serializedValue>
         </property>
         <property path="/behaviorConfiguration" isComplexType="false" isExplicitlyDefined="false" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />

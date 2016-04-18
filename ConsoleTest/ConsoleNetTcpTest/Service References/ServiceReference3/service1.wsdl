@@ -66,9 +66,9 @@
   </wsdl:binding>
   <wsdl:service name="ProgramerService">
     <wsdl:port name="ICaseEndPoint" binding="tns:ICaseEndPoint">
-      <soap12:address location="net.tcp://192.168.1.173:7789/iprogramer" />
+      <soap12:address location="net.tcp://localhost:7789/iprogramer" />
       <wsa10:EndpointReference>
-        <wsa10:Address>net.tcp://192.168.1.173:7789/iprogramer</wsa10:Address>
+        <wsa10:Address>net.tcp://localhost:7789/iprogramer</wsa10:Address>
         <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
           <Upn>DESKTOP-B0BEAQ7\ysj</Upn>
         </Identity>

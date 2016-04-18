@@ -20,14 +20,14 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="net.tcp://192.168.1.173:7788/mex" Protocol="mex" SourceId="1" />
+    <MetadataSource Address="net.tcp://localhost:7788/mex" Protocol="mex" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="6c69a71e-ee0b-471e-9bb5-145e136abbf7" SourceId="1" SourceUrl="net.tcp://192.168.1.173:7788/mex" />
-    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="e35ebd00-8fc9-4032-a2d4-4a5df27651c0" SourceId="1" SourceUrl="net.tcp://192.168.1.173:7788/mex" />
-    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="a423721c-77cf-4f80-9dbc-ba2a0ccbbcfb" SourceId="1" SourceUrl="net.tcp://192.168.1.173:7788/mex" />
-    <MetadataFile FileName="Arrays.xsd" MetadataType="Schema" ID="6571c956-1007-45ec-9ec8-0505e01d781f" SourceId="1" SourceUrl="net.tcp://192.168.1.173:7788/mex" />
-    <MetadataFile FileName="Model.xsd" MetadataType="Schema" ID="7086f780-6d8f-4027-9635-87c695abcef6" SourceId="1" SourceUrl="net.tcp://192.168.1.173:7788/mex" />
+    <MetadataFile FileName="service1.wsdl" MetadataType="Wsdl" ID="81200ab6-51b7-432c-a72e-6b0ab75b30b1" SourceId="1" SourceUrl="net.tcp://localhost:7788/mex" />
+    <MetadataFile FileName="service2.xsd" MetadataType="Schema" ID="1d4e08d8-775e-4d0b-b8ca-3a506cfd0c2d" SourceId="1" SourceUrl="net.tcp://localhost:7788/mex" />
+    <MetadataFile FileName="service21.xsd" MetadataType="Schema" ID="507d459d-b367-47f8-afde-b48fa2492690" SourceId="1" SourceUrl="net.tcp://localhost:7788/mex" />
+    <MetadataFile FileName="Arrays1.xsd" MetadataType="Schema" ID="232e74a0-6289-4258-a43c-7683879d53ef" SourceId="1" SourceUrl="net.tcp://localhost:7788/mex" />
+    <MetadataFile FileName="Model1.xsd" MetadataType="Schema" ID="ca0e0989-5a11-4de5-bf1d-85c4f1b66ded" SourceId="1" SourceUrl="net.tcp://localhost:7788/mex" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

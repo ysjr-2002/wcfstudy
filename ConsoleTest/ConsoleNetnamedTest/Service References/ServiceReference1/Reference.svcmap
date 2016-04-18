@@ -18,13 +18,13 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="net.pipe://192.168.1.173/mex" Protocol="mex" SourceId="1" />
+    <MetadataSource Address="net.pipe://localhost/mex" Protocol="mex" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="c7dd9d3c-25f6-46f2-a41b-ee64cd91c96f" SourceId="1" SourceUrl="net.pipe://192.168.1.173/mex" />
-    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="b2cf918d-b95b-4af6-8ba6-61e090fdfd3a" SourceId="1" SourceUrl="net.pipe://192.168.1.173/mex" />
-    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="457377c4-0a64-48d7-b65c-6b237391db63" SourceId="1" SourceUrl="net.pipe://192.168.1.173/mex" />
-    <MetadataFile FileName="Arrays.xsd" MetadataType="Schema" ID="24e13bb8-496a-4b06-ad86-aed732fca467" SourceId="1" SourceUrl="net.pipe://192.168.1.173/mex" />
+    <MetadataFile FileName="service1.wsdl" MetadataType="Wsdl" ID="5517c56f-4c1a-4a7d-8912-da33aad6f3fc" SourceId="1" SourceUrl="net.pipe://localhost/mex" />
+    <MetadataFile FileName="service2.xsd" MetadataType="Schema" ID="a90a37a7-2830-4bda-889f-3071fa0e2cdd" SourceId="1" SourceUrl="net.pipe://localhost/mex" />
+    <MetadataFile FileName="service21.xsd" MetadataType="Schema" ID="3b6fe826-d2ab-4857-9a4e-f9d45c346624" SourceId="1" SourceUrl="net.pipe://localhost/mex" />
+    <MetadataFile FileName="Arrays1.xsd" MetadataType="Schema" ID="f0e9d8a6-80cb-41a1-831e-c3153711ed0f" SourceId="1" SourceUrl="net.pipe://localhost/mex" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

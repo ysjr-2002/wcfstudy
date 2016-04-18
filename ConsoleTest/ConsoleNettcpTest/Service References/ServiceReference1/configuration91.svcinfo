@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="uUA3KD8MKWx0n9DepvRKnfxyBcc=">
+<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="THmoUHIqTwkS7qr8vn9koF4VG44=">
   <bindingConfigurations>
     <bindingConfiguration bindingType="netTcpBinding" name="ICaseEndPoint">
       <properties>
@@ -357,10 +357,10 @@
     </bindingConfiguration>
   </bindingConfigurations>
   <endpoints>
-    <endpoint name="ICaseEndPoint" contract="ServiceReference1.ICase" bindingType="netTcpBinding" address="net.tcp://192.168.1.173:7788/icase" bindingConfiguration="ICaseEndPoint">
+    <endpoint name="ICaseEndPoint" contract="ServiceReference1.ICase" bindingType="netTcpBinding" address="net.tcp://localhost:7788/icase" bindingConfiguration="ICaseEndPoint">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>net.tcp://192.168.1.173:7788/icase</serializedValue>
+          <serializedValue>net.tcp://localhost:7788/icase</serializedValue>
         </property>
         <property path="/behaviorConfiguration" isComplexType="false" isExplicitlyDefined="false" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />
@@ -442,10 +442,10 @@
         </property>
       </properties>
     </endpoint>
-    <endpoint name="IUserEndPoint" contract="ServiceReference1.IUser" bindingType="netTcpBinding" address="net.tcp://192.168.1.173:7788/iuser" bindingConfiguration="IUserEndPoint">
+    <endpoint name="IUserEndPoint" contract="ServiceReference1.IUser" bindingType="netTcpBinding" address="net.tcp://localhost:7788/iuser" bindingConfiguration="IUserEndPoint">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>net.tcp://192.168.1.173:7788/iuser</serializedValue>
+          <serializedValue>net.tcp://localhost:7788/iuser</serializedValue>
         </property>
         <property path="/behaviorConfiguration" isComplexType="false" isExplicitlyDefined="false" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />
@@ -527,10 +527,10 @@
         </property>
       </properties>
     </endpoint>
-    <endpoint name="ICameraEndPoint" contract="ServiceReference1.ICamera" bindingType="netTcpBinding" address="net.tcp://192.168.1.173:7788/icamera" bindingConfiguration="ICameraEndPoint">
+    <endpoint name="ICameraEndPoint" contract="ServiceReference1.ICamera" bindingType="netTcpBinding" address="net.tcp://localhost:7788/icamera" bindingConfiguration="ICameraEndPoint">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>net.tcp://192.168.1.173:7788/icamera</serializedValue>
+          <serializedValue>net.tcp://localhost:7788/icamera</serializedValue>
         </property>
         <property path="/behaviorConfiguration" isComplexType="false" isExplicitlyDefined="false" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />

@@ -174,8 +174,8 @@
   </wsp:Policy>
   <wsdl:types>
     <xsd:schema targetNamespace="http://tempuri.org/Imports">
-      <xsd:import schemaLocation="http://192.168.1.173:8899/?xsd=xsd0" namespace="http://tempuri.org/" />
-      <xsd:import schemaLocation="http://192.168.1.173:8899/?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:8899/?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:8899/?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
     </xsd:schema>
   </wsdl:types>
   <wsdl:message name="IPhone_Call_InputMessage">
@@ -220,9 +220,9 @@
   </wsdl:binding>
   <wsdl:service name="Apple">
     <wsdl:port name="WSDualHttpBinding_IPhone" binding="tns:WSDualHttpBinding_IPhone">
-      <soap12:address location="http://192.168.1.173:8899/phone" />
+      <soap12:address location="http://localhost:8899/phone" />
       <wsa10:EndpointReference>
-        <wsa10:Address>http://192.168.1.173:8899/phone</wsa10:Address>
+        <wsa10:Address>http://localhost:8899/phone</wsa10:Address>
         <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
           <Upn>DESKTOP-B0BEAQ7\ysj</Upn>
         </Identity>

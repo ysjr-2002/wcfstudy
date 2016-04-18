@@ -24,17 +24,16 @@ namespace ConsoleWsDualHttpHost
                 }
                 Console.WriteLine("service started");
 
-                while (true)
+                string s = "";
+                while ((s = Console.ReadLine()) !="e")
                 {
-                    var s = Console.ReadLine();
                     if (s == "s")
                     {
-                        apple.Call();
+                        apple.CallClient();
                     }
                     else
                         Console.WriteLine(s);
                 }
-                Console.Read();
             }
             catch (Exception ex)
             {

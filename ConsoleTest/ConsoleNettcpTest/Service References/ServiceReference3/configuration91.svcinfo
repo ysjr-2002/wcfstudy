@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="JWpf2kK/6pXEWjwQO+qPVJN4qpQ=">
+<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="W+tnIKpdRruNZp274sFt67CJfAQ=">
   <bindingConfigurations>
     <bindingConfiguration bindingType="netTcpBinding" name="ICaseEndPoint1">
       <properties>
@@ -121,10 +121,10 @@
     </bindingConfiguration>
   </bindingConfigurations>
   <endpoints>
-    <endpoint name="ICaseEndPoint1" contract="ServiceReference3.IProgramer" bindingType="netTcpBinding" address="net.tcp://192.168.1.173:7789/iprogramer" bindingConfiguration="ICaseEndPoint1">
+    <endpoint name="ICaseEndPoint1" contract="ServiceReference3.IProgramer" bindingType="netTcpBinding" address="net.tcp://localhost:7789/iprogramer" bindingConfiguration="ICaseEndPoint1">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>net.tcp://192.168.1.173:7789/iprogramer</serializedValue>
+          <serializedValue>net.tcp://localhost:7789/iprogramer</serializedValue>
         </property>
         <property path="/behaviorConfiguration" isComplexType="false" isExplicitlyDefined="false" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />

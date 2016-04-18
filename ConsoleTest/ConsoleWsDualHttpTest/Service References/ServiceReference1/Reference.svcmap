@@ -21,10 +21,10 @@
     <MetadataSource Address="http://192.168.1.173:8899/" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="0647db83-346e-4df2-a2a8-c3a3c6ecf1c9" SourceId="1" SourceUrl="http://192.168.1.173:8899/?disco" />
-    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="acb358f8-d55b-4f13-99a1-f313581e9364" SourceId="1" SourceUrl="http://192.168.1.173:8899/?xsd=xsd0" />
-    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="27108f9a-e502-47ad-92b9-142997d243cd" SourceId="1" SourceUrl="http://192.168.1.173:8899/?xsd=xsd1" />
-    <MetadataFile FileName="Apple.wsdl" MetadataType="Wsdl" ID="9634554c-3ab4-441b-95ce-b6cd6c4c70dd" SourceId="1" SourceUrl="http://192.168.1.173:8899/?wsdl" />
+    <MetadataFile FileName="item2.xsd" MetadataType="Schema" ID="05dcb228-0793-4248-a9ed-3c5004e178f3" SourceId="1" SourceUrl="http://localhost:8899/?xsd=xsd0" />
+    <MetadataFile FileName="item1.disco" MetadataType="Disco" ID="186463ad-3f18-4b28-a880-30c21912e483" SourceId="1" SourceUrl="http://localhost:8899/?disco" />
+    <MetadataFile FileName="Apple1.wsdl" MetadataType="Wsdl" ID="f796ebca-ea1a-4e82-b3d7-88025d94791d" SourceId="1" SourceUrl="http://localhost:8899/?wsdl" />
+    <MetadataFile FileName="item21.xsd" MetadataType="Schema" ID="3ecb1937-b569-48c2-b88c-bf2a8fc35c2d" SourceId="1" SourceUrl="http://localhost:8899/?xsd=xsd1" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

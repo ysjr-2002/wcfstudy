@@ -5,9 +5,9 @@ VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleBasicHttpTest", "ConsoleBasicHttpTest\ConsoleBasicHttpTest.csproj", "{5615EE26-D5EC-4B48-984F-BB8EB6CF5266}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleNettcpTest", "F:\github\WCFStudy\ConsoleTest\ConsoleNettcpTest\ConsoleNettcpTest.csproj", "{55F21F7C-6429-4080-AB0E-5DE8E1D26E5A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleNetTcpTest", "ConsoleNettcpTest\ConsoleNetTcpTest.csproj", "{55F21F7C-6429-4080-AB0E-5DE8E1D26E5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleNetnamedTest", "F:\github\WCFStudy\ConsoleTest\ConsoleNetnamedTest\ConsoleNetnamedTest.csproj", "{59ECB589-07DF-4E43-8FDC-00824339B400}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleNetPipeNamedTest", "ConsoleNetnamedTest\ConsoleNetPipeNamedTest.csproj", "{59ECB589-07DF-4E43-8FDC-00824339B400}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleWebHttpTest", "F:\github\WCFStudy\ConsoleTest\ConsoleWebHttpTest\ConsoleWebHttpTest.csproj", "{4F8D4F9D-DDA5-4831-9EFD-A3B642B41F1C}"
 EndProject

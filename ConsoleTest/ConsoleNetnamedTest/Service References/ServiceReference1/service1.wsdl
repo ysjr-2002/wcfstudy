@@ -87,9 +87,9 @@
   </wsdl:binding>
   <wsdl:service name="CaseService">
     <wsdl:port name="netnamed" binding="tns:netnamed">
-      <soap12:address location="net.pipe://192.168.1.173/" />
+      <soap12:address location="net.pipe://localhost/" />
       <wsa10:EndpointReference>
-        <wsa10:Address>net.pipe://192.168.1.173/</wsa10:Address>
+        <wsa10:Address>net.pipe://localhost/</wsa10:Address>
         <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
           <Upn>DESKTOP-B0BEAQ7\ysj</Upn>
         </Identity>

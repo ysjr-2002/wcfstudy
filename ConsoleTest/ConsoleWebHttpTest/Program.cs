@@ -34,6 +34,8 @@ namespace ConsoleWebHttpTest
             XmlDocument doc = new XmlDocument();
             doc.LoadXml(txt);
             var val = doc.FirstChild.InnerText;
+            Console.WriteLine("val:"+val);
+            Console.Read();
         }
     }
 }

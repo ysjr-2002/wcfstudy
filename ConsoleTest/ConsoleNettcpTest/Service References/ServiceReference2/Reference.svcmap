@@ -18,12 +18,12 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://192.168.1.173:5566/" Protocol="http" SourceId="1" />
+    <MetadataSource Address="http://localhost:5566/" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="DeparmentService.wsdl" MetadataType="Wsdl" ID="d1bab548-17bc-4c7a-aa0a-2984d3dcdf10" SourceId="1" SourceUrl="http://192.168.1.173:5566/?wsdl" />
-    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="80a869ff-bedd-4c2d-b770-368828192b91" SourceId="1" SourceUrl="http://192.168.1.173:5566/?xsd=xsd0" />
-    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="0c592c8c-a3e9-4c25-8cda-7edd53941749" SourceId="1" SourceUrl="http://192.168.1.173:5566/?disco" />
+    <MetadataFile FileName="DeparmentService1.wsdl" MetadataType="Wsdl" ID="c5d9155e-a023-4434-8877-b15583b39ef9" SourceId="1" SourceUrl="http://localhost:5566/?wsdl" />
+    <MetadataFile FileName="item1.disco" MetadataType="Disco" ID="8dcaaeff-a12f-4096-944c-009c70886e82" SourceId="1" SourceUrl="http://localhost:5566/?disco" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="7b4993c6-456d-402e-abbe-0d2de71a7a0b" SourceId="1" SourceUrl="http://localhost:5566/?xsd=xsd0" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

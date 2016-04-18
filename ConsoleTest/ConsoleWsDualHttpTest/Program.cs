@@ -13,11 +13,9 @@ namespace ConsoleWsDualHttpTest
         {
             Heart bit = new Heart();
             InstanceContext context = new InstanceContext(bit);
-            using (ServiceReference1.PhoneClient client = new ServiceReference1.PhoneClient(context))
-            {
-                client.Call();
-                Console.WriteLine("client call over");
-            }
+            ServiceReference1.PhoneClient client = new ServiceReference1.PhoneClient(context);
+            client.Call();
+            Console.WriteLine("client call over");
             Console.Read();
         }
     }

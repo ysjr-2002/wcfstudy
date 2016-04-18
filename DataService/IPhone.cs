@@ -13,7 +13,7 @@ namespace HzDataService
         [OperationContract]
         void Call();
 
-        void CallX();
+        void CallClient();
     }
 
     public interface IHeart

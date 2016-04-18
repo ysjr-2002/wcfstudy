@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="kWy5ZpiGwEwy1UEU2qETjbrFXgs=">
+<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="Kw1Qh3j1PcYu8iHYPgiRyb6OEag=">
   <bindingConfigurations>
     <bindingConfiguration bindingType="basicHttpBinding" name="IDeptEndPoint">
       <properties>
@@ -112,10 +112,10 @@
     </bindingConfiguration>
   </bindingConfigurations>
   <endpoints>
-    <endpoint name="IDeptEndPoint" contract="ServiceReference2.IDept" bindingType="basicHttpBinding" address="http://192.168.1.173:5566/idept" bindingConfiguration="IDeptEndPoint">
+    <endpoint name="IDeptEndPoint" contract="ServiceReference2.IDept" bindingType="basicHttpBinding" address="http://localhost:5566/idept" bindingConfiguration="IDeptEndPoint">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>http://192.168.1.173:5566/idept</serializedValue>
+          <serializedValue>http://localhost:5566/idept</serializedValue>
         </property>
         <property path="/behaviorConfiguration" isComplexType="false" isExplicitlyDefined="false" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />

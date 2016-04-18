@@ -40,7 +40,7 @@ namespace ConsoleWsHttpTest
             Security = new WSHttpSecurity() { Mode = SecurityMode.None },
             MaxReceivedMessageSize = 2147483647
         };
-        static EndpointAddress address = new EndpointAddress("http://192.168.1.173:5566/myway");
+        static EndpointAddress address = new EndpointAddress("http://localhost:5566/myway");
 
         public ServiceClient()
             : base(ws, address)

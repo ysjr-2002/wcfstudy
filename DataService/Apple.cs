@@ -10,38 +10,22 @@ namespace HzDataService
     [ServiceBehavior(InstanceContextMode = InstanceContextMode.Single)]
     public class Apple : IPhone, IDisposable
     {
-        public static List<OperationContext> staticlist = new List<OperationContext>();
         List<OperationContext> clientlist = new List<OperationContext>();
-        Dictionary<string, OperationContext> dict = new Dictionary<string, OperationContext>();
         public void Call()
         {
             OperationContext context = null;
-            if (context == null)
-            {
-                context = OperationContext.Current;
-                MessageProperties properties = context.IncomingMessageProperties;
-                RemoteEndpointMessageProperty endpoint = properties[RemoteEndpointMessageProperty.Name] as RemoteEndpointMessageProperty;
-                Console.WriteLine("address:{0} port:{1}", endpoint.Address, endpoint.Port);
-                clientlist.Add(context);
-                staticlist.Add(context);
-            }
-            else
-            {
-                if (context == OperationContext.Current)
-                {
-                    Console.WriteLine("同一个实例");
-                }
-                else
-                {
-                    clientlist.Add(OperationContext.Current);
-                }
-            }
+            context = OperationContext.Current;
+            MessageProperties properties = context.IncomingMessageProperties;
+            RemoteEndpointMessageProperty endpoint = properties[RemoteEndpointMessageProperty.Name] as RemoteEndpointMessageProperty;
+            Console.WriteLine("address:{0} port:{1}", endpoint.Address, endpoint.Port);
+            clientlist.Add(context);
+
             Console.WriteLine("session Id:" + OperationContext.Current.SessionId);
             Console.WriteLine("apple call");
         }
 
 
-        public void CallX()
+        public void CallClient()
         {
             foreach (OperationContext item in clientlist)
             {
@@ -51,15 +35,6 @@ namespace HzDataService
             }
         }
 
-        public static void CallStaticX()
-        {
-            foreach (OperationContext item in staticlist)
-            {
-                var x = item.GetCallbackChannel<IHeart>();
-                x.HeartBit(new Random().Next(1, 100));
-                Console.WriteLine("static applie call over");
-            }
-        }
 
         public void Dispose()
         {
