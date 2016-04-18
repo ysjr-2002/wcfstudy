@@ -1,0 +1,8 @@
+﻿wsDualHttpBinding 支持双工绑定
+
+注意：
+采用wsDualHttpBinding后，即使不使用回调方式，客户端对binding对象也要配置ClientBaseAddress熟悉，否则会报80端口被占用错误
+
+双工绑定使用说明：
+1.服务器对象设置为Single模式，即服务器只保存一个对象
+2.对象保存每一个客户端OperationContext对象到数组，回调时遍历数组进行
